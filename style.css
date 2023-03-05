@@ -20,33 +20,30 @@
 
 .loja1{
     margin: 30px;
-    text-align: center;
-    position: relative;
-    right: left 500px;
-    
+    text-align: center;   
 }
 
 .cabecalho{
     background-color: black;
     font-size: 25px;
-
 }
-
 
 .menu{
     padding: 0;
-    background-color: aquamarine;
+    background-color: black;
+    text-align: right;
 }
 
 .menu a{
     text-decoration: none;
     display: block;
-    background-color: black;
+    background-color: #ccc;
     padding: 5px;
 }
 
 .menu li{
     text-decoration: none;
+    display: inline-block;
 
 }
 
@@ -68,7 +65,7 @@
 }
 
 .frase-logo{
-    color: white;
+    color: #ff02f2;
     text-align: center;
 }
 
