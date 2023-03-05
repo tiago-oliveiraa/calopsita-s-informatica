@@ -1,0 +1,52 @@
+html{
+    font-size: 20px;
+}
+
+.banner{
+    background-color: black;
+
+}
+
+.rodape{
+    background-color: yellow;
+
+    box-sizing: border-box;
+    border: solid 5px red;
+}
+
+.painel{
+    background-color: blanchedalmond;
+
+
+}
+
+.nome-loja{
+    color: aquamarine;
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.loja1{
+    margin: 30px;
+    
+}
+
+.navegacao{
+margin: 10px;
+text-align: right;
+display: inline;
+}
+
+.missao-loja{
+    margin: 20px;
+    color: red;
+    text-align: center
+    ;
+    
+}
+
+
+
+
