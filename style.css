@@ -1,13 +1,7 @@
-
-
-.rodape{
-    background-color: yellow;
-    box-sizing: border-box;
-    border: solid 5px red;
-}
-
-.painel{
-    background-color: blanchedalmond;
+.bem-vindo{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
 }
 
 .nome-loja{
@@ -17,11 +11,27 @@
     text-align: center;
 }
 
-
-.loja1{
-    margin: 30px;
-    text-align: center;   
+.painel{
+    background-color: rgb(169, 197, 11);
+    margin: 20px auto;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 5px ;
+    border-radius: 10px;
 }
+
+.painel li{
+    list-style: none;
+}
+
+.loja-dentro{
+    text-align: center;
+    margin: 50px;
+
+}
+
+
 
 .cabecalho{
     background-color: black;
@@ -53,22 +63,55 @@
 }
 
 .missao-loja{
-    margin: 20px;
-    color: red;
-    text-align: center;   
+    margin: 30px;
+    color: black;
+    font-size: 40px;
+    border: solid darkblue 5px;
+    background-color: aquamarine;
+   
 }
 
 .link-externo{
-    margin: 15px;
-    list-style: none;
-
+ 
+    margin: 30px;
+    justify-content:space-around;
+    display: flex;
 }
+
+.link-externo a{
+    text-decoration: none;
+    padding: 15px;
+    border: solid 2px;
+    width: 180px;
+    background-color: burlywood;
+}
+
 
 .frase-logo{
     color: #ff02f2;
     text-align: center;
 }
 
+
+.rodape{
+
+    border-radius: 10px;
+    color: rgb(5, 5, 5);
+    background-color: rgba(3, 7, 37, 0.24);
+    font-size: 35px;
+    /* display: flex;
+    justify-content: space-between; */
+
+
+
+}
+
+
+.rodape div{
+
+    display: flexbox;
+    justify-content: space-around;
+}
 
 
 
