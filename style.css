@@ -26,11 +26,18 @@
 }
 
 .loja-dentro{
-    text-align: center;
     margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
 
 }
-
+/* .loja-dentro img{
+    width: 600px;
+    height: 400px;
+} */
 
 
 .cabecalho{
@@ -99,19 +106,14 @@
     color: rgb(5, 5, 5);
     background-color: rgba(3, 7, 37, 0.24);
     font-size: 35px;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    flex-direction: column;
+   
 
 
 
 }
 
-
-.rodape div{
-
-    display: flexbox;
-    justify-content: space-around;
-}
 
 
 
